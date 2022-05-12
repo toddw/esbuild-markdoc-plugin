@@ -6,7 +6,7 @@ esbuild plugin for markdown files using markdoc.
 
 1. Add to your esbuild plugins array.
 
-```
+```javascript
 import markdocPlugin from "esbuild-markdoc-plugin";
 
 config = {
@@ -20,9 +20,9 @@ config = {
 
 2. All files with `.md` extention will be parsed with Markdoc, and transformed into the content json object for Markdoc renderers.
 
-```
-import Markdoc from "@markdoc/markdoc";
-import content from "./my-markdown.md";
+```javascript
+import Markdoc from '@markdoc/markdoc';
+import content from './my-markdown.md';
 
 const html = Markdoc.renderers.html(content);
 ```
