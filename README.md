@@ -37,4 +37,4 @@ You can pass a custom [config](https://markdoc.io/docs/syntax#config) object to 
 
 I wanted this for my own project so I built this plugin. I figured other people might want to use it as well so here it is.
 
-Please file issues or open PRs and I will try to address them quickly.
+Please file [issues](https://github.com/toddw/esbuild-markdoc-plugin/issues) or open [PRs](https://github.com/toddw/esbuild-markdoc-plugin/pulls) and I will try to address them quickly.
