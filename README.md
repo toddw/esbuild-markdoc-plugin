@@ -1,8 +1,10 @@
 # esbuild-markdoc-plugin
 
-esbuild plugin for markdown files using markdoc.
+esbuild plugin for markdown files using [Markdoc](https://markdoc.io/).
 
-## How to use
+## How to use the plugin
+
+The goal of this plugin is to convert .md files into the content object expected by [Markdoc render functions](https://markdoc.io/docs/render#render).
 
 1. Add to your esbuild plugins array.
 
@@ -26,6 +28,10 @@ import content from './my-markdown.md';
 
 const html = Markdoc.renderers.html(content);
 ```
+
+## Custom Config
+
+You can pass a custom [config](https://markdoc.io/docs/syntax#config) object to `markdocPlugin(config)`.
 
 ## Contributing
 
