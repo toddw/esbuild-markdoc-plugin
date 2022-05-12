@@ -1,6 +1,6 @@
 {
   "name": "esbuild-markdoc-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "esbuild plugin for markdown files using markdoc",
   "main": "src/index.js",
   "scripts": {
