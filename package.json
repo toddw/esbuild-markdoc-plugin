@@ -1,0 +1,24 @@
+{
+  "name": "esbuild-markdoc-plugin",
+  "version": "1.0.0",
+  "description": "esbuild plugin for markdown files using markdoc",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "esbuild",
+    "plugin",
+    "markdoc",
+    "markdown"
+  ],
+  "author": "Todd Williams https://twitter.com/mrtoddwilliams",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "4.6.4"
+  },
+  "dependencies": {
+    "@markdoc/markdoc": "0.1.1",
+    "esbuild": "0.14.39"
+  }
+}
